@@ -1,0 +1,6 @@
+jellybool-slug:
+  admin:
+    settings:
+      title: 设置
+      apikey: Api Key
+      apisecret: Api Secret

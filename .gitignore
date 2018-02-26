@@ -1,0 +1,9 @@
+/vendor
+composer.phar
+.DS_Store
+Thumbs.db
+bower_components
+node_modules
+package-lock.json
+composer.lock
+js/admin/package-lock.json

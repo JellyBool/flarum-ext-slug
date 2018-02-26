@@ -1,0 +1,36 @@
+{
+    "name": "jellybool/flarum-ext-slug",
+    "description": "Generate url slug for Chinese.",
+    "type": "flarum-extension",
+    "keywords": ["slug","chinese"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JellyBool",
+            "email": "jellybool@outlook.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jellybool/flarum-ext-slug/issues",
+        "source": "https://github.com/jellybool/flarum-ext-slug"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6",
+        "jellybool/translug" : "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JellyBool\\Chinese\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chinese Slug",
+            "icon": {
+                "name": "fab fa-gg",
+                "backgroundColor": "#ff5722",
+                "color": "#fff"
+            }
+        }
+    }
+}
